@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SuppliesPriceLister")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ae69cb075802d0653bc9607fe342168d7abf9bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("SuppliesPriceLister")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SuppliesPriceLister")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
