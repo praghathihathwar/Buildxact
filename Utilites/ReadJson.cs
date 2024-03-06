@@ -1,4 +1,5 @@
-﻿using buildxact_supplies.Models;
+﻿using buildxact_supplies.Models.Data;
+using buildxact_supplies.Models.View;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;

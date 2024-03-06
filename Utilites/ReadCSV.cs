@@ -1,4 +1,6 @@
-﻿using buildxact_supplies.Models;
+﻿using buildxact_supplies.Mapper;
+using buildxact_supplies.Models.Data;
+using buildxact_supplies.Models.View;
 using CsvHelper;
 using System;
 using System.Collections.Generic;

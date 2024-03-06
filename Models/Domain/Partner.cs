@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace buildxact_supplies.Models
+namespace buildxact_supplies.Models.Domain
 {
     public class Partner
     {

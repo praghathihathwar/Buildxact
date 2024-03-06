@@ -1,4 +1,5 @@
-﻿using buildxact_supplies.Models;
+﻿using buildxact_supplies.Handler;
+using buildxact_supplies.Models.View;
 using buildxact_supplies.Utilites;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -11,23 +12,9 @@ namespace SuppliesPriceLister
     {
         static void Main(string[] args)
         {
-            IConfiguration configuration = new ConfigurationBuilder()
-                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
-                .Build();
+            SuppliesListHandler suppliesListHandler = new SuppliesListHandler();
 
-            // Read settings
-            string jsonFilePath = configuration["filePath:jsonPath"];
-            string csvFilePath = configuration["filePath:csvPath"];
-            float exchangeRate = float.Parse(configuration["audUsdExchangeRate"]);
-            
-            ReadCSV readCSV = new ReadCSV();
-            // Your solution begins here
-            List<SuppliesViewModel> CSVSupplies = readCSV.ReadCsvData(csvFilePath);
-
-            ReadJson readJson = new ReadJson();
-            List<SuppliesViewModel> JsonSupplies = readJson.ReadJsonData(jsonFilePath,exchangeRate);
-
-            List<SuppliesViewModel> combinedSupplies = CSVSupplies.Concat(JsonSupplies).OrderByDescending(x => x.Price).ToList();
+            List<SuppliesViewModel> combinedSupplies = suppliesListHandler.CombineSuppliesData();
 
             foreach(var supply in combinedSupplies)
             {

@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace buildxact_supplies.Models
+namespace buildxact_supplies.Models.View
 {
     public class SuppliesViewModel
     {
         public string Id { get; set; }
-        public string Name { get; set; }    
-        public float Price {  get; set; }
+        public string Name { get; set; }
+        public float Price { get; set; }
     }
 }

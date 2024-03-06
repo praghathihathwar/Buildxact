@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace buildxact_supplies.Models
+namespace buildxact_supplies.Models.Data
 {
     public class CSVDataModel
     {
         [Index(0)]
-        public string Id{ get; set; }
+        public string Id { get; set; }
         [Index(1)]
         public string Description { get; set; }
         [Index(2)]

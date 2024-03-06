@@ -1,13 +1,14 @@
-﻿using CsvHelper.Configuration;
+﻿using buildxact_supplies.Models.Data;
+using CsvHelper.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace buildxact_supplies.Models
+namespace buildxact_supplies.Mapper
 {
-    public class CSVDataMap:ClassMap<CSVDataModel>
+    public class CSVDataMap : ClassMap<CSVDataModel>
     {
         public CSVDataMap()
         {

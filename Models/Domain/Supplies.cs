@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace buildxact_supplies.Models
+namespace buildxact_supplies.Models.Domain
 {
     public class Supplies
     {
         public string Id { get; set; }
-        public string Description{ get; set; }
+        public string Description { get; set; }
         public string Uom { get; set; }
         public float PriceInCents { get; set; }
         public string ProviderId { get; set; }

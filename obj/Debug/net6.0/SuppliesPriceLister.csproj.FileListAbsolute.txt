@@ -28,3 +28,4 @@ D:\Pragathi\Learning\BuildxactCodingTest\bin\Debug\net6.0\Microsoft.Extensions.P
 D:\Pragathi\Learning\BuildxactCodingTest\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 D:\Pragathi\Learning\BuildxactCodingTest\bin\Debug\net6.0\System.Text.Json.dll
 D:\Pragathi\Learning\BuildxactCodingTest\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Pragathi\Learning\BuildxactCodingTest\obj\Debug\net6.0\SuppliesPriceLister.sourcelink.json
